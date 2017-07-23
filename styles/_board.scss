@@ -1,25 +1,32 @@
 // -----------------------------------------------------------------------------
 // -- HEADER
 // -----------------------------------------------------------------------------
-.ghx-column-headers h2 {
-  text-transform: uppercase;
-}
-.ghx-column-headers .ghx-qty {
-  float: right;
-}
-.ghx-column-headers > .ghx-column {
-  background: #F4F5F7;
-  padding: 10px;
-  border: none;
+.ghx-column-headers {
+  h2 {
+    text-transform: uppercase;
+  }
+
+  .ghx-qty {
+    float: right;
+  }
+
+  & > .ghx-column {
+    background: #F4F5F7;
+    padding: 10px;
+    border: none;
+  }
 }
 
 // -----------------------------------------------------------------------------
 // -- SWIMLANE
 // -----------------------------------------------------------------------------
-.ghx-swimlane .ghx-columns > .ghx-column {
-  background: #F4F5F7;
-  padding: 10px;;
+.ghx-swimlane {
+  .ghx-columns > .ghx-column {
+    background: #F4F5F7;
+    padding: 10px;;
+  }
 }
+
 #ghx-pool.ghx-band-3 {
   padding-top: 42px;
 }

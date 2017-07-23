@@ -72,13 +72,6 @@ a[role="button"].ghx-active, button.ghx-active {
     background: #0052cc; }
 
 .aui-dropdown2 {
-  background-color: #fff;
-  color: #172b4d;
-  /*li:hover {
-    background: $light-gray;
-  }*/ }
-
-.aui-dropdown2 {
   background-color: #fff !important;
   color: #172b4d !important; }
   .aui-dropdown2 a {
@@ -126,11 +119,10 @@ a[role="button"].ghx-active, button.ghx-active {
 .aui-page-panel-nav .aui-nav a:active, .aui-nav-selected {
   background: #DEEBFF !important; }
 
-.aui-message-warning {
-  background-color: #ffab00 !important; }
-
 .aui-message {
   border: none !important; }
+  .aui-message.aui-message-warning {
+    background-color: #ffab00 !important; }
 
 .aui-message.warning:before, .aui-message-warning:before {
   background-color: #ffab00 !important; }

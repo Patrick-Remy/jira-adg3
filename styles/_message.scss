@@ -1,8 +1,9 @@
-.aui-message-warning {
-  background-color: $yellow !important;
-}
 .aui-message {
   border: none !important;
+
+  &.aui-message-warning {
+    background-color: $yellow !important;
+  }
 }
 .aui-message.warning:before, .aui-message-warning:before {
   background-color: $yellow !important;
