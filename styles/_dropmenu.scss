@@ -1,0 +1,36 @@
+.aui-dropdown2 {
+  background-color: $white;
+  color: $black;
+
+  /*li:hover {
+    background: $light-gray;
+  }*/
+}
+
+.aui-dropdown2 {
+  background-color: $white !important;
+  color: $black !important;
+
+  a {
+    color: $black !important;
+  }
+
+  strong {
+    color: /*#B3D4FF*/ $dark-gray-2 !important;
+  }
+
+  li:hover > a {
+      background: $light-gray !important;
+  }
+
+  // Remove background change on hover
+  &:hover a {
+    background: transparent;
+    color: inherit;
+  }
+}
+
+.aui-dropdown2.aui-style-default,
+.aui-style-default .aui-dropdown2-section + .aui-dropdown2-section {
+  border: none;
+}

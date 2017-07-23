@@ -1,0 +1,15 @@
+a[role="button"], button {
+  &.ghx-active {
+    background: $blue !important;
+  }
+}
+
+.aui-button {
+  &.aui-button-primary {
+    background: $blue;
+    
+    &:hover, &:active, &:visited {
+      background: $primary-blue;
+    }
+  }
+}

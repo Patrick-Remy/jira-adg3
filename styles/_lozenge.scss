@@ -1,0 +1,26 @@
+.aui-lozenge {
+  &.jira-issue-status-lozenge-blue-gray {
+    background-color: $dark-blue;
+    border-color: $dark-blue;
+  }
+
+  &.jira-issue-status-lozenge-yellow {
+    background-color: $yellow;
+    border-color: $yellow;
+  }
+
+  &.jira-issue-status-lozenge-green {
+    background-color: $green;
+    border-color: $green;
+  }
+
+  &.jira-issue-status-lozenge-purple {
+    background-color: $purple;
+    border-color: $green;
+  }
+
+  &.jira-issue-status-lozenge-blue {
+    background-color: $blue;
+    border-color: $blue;
+  }
+}

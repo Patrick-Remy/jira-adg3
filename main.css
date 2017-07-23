@@ -1,0 +1,178 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857142857143;
+  letter-spacing: -.005em;
+  color: #172b4d; }
+
+a:hover {
+  color: #0065ff; }
+
+article h1, article h1:first-child {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-top: 28px;
+  margin-bottom: 8px; }
+  @media (max-width: 1024px) {
+    article h1, article h1:first-child {
+      margin-top: 16px; } }
+
+article h2, article h2:first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 8px; }
+  @media (max-width: 1024px) {
+    article h2, article h2:first-child {
+      margin-top: 16px; } }
+
+article h3, article h3:first-child {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  margin-bottom: 1em; }
+
+article h4, article h4:first-child {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 8px; }
+
+article h5, article h5:first-child {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-weight: 600; }
+
+article h6, article h6:first-child {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #5e6c84; }
+
+body {
+  background: #f4f5f7; }
+
+a[role="button"].ghx-active, button.ghx-active {
+  background: #0049b0 !important; }
+
+.aui-button.aui-button-primary {
+  background: #0049b0; }
+  .aui-button.aui-button-primary:hover, .aui-button.aui-button-primary:active, .aui-button.aui-button-primary:visited {
+    background: #0052cc; }
+
+.aui-dropdown2 {
+  background-color: #fff;
+  color: #172b4d;
+  /*li:hover {
+    background: $light-gray;
+  }*/ }
+
+.aui-dropdown2 {
+  background-color: #fff !important;
+  color: #172b4d !important; }
+  .aui-dropdown2 a {
+    color: #172b4d !important; }
+  .aui-dropdown2 strong {
+    color: #42526e !important; }
+  .aui-dropdown2 li:hover > a {
+    background: #f4f5f7 !important; }
+  .aui-dropdown2:hover a {
+    background: transparent;
+    color: inherit; }
+
+.aui-dropdown2.aui-style-default,
+.aui-style-default .aui-dropdown2-section + .aui-dropdown2-section {
+  border: none; }
+
+.aui-header {
+  background-color: #0049b0; }
+  .aui-header .aui-dropdown2-trigger {
+    /*&.active {
+      background: #2684FF;
+    }*/ }
+    .aui-header .aui-dropdown2-trigger:hover, .aui-header .aui-dropdown2-trigger.active {
+      background: rgba(9, 30, 66, 0.42); }
+    .aui-header .aui-dropdown2-trigger:focus {
+      outline: none;
+      box-shadow: 0px 0px 0px 2px #4c9aff; }
+
+.aui-navgroup-horizontal {
+  background: #f4f5f7; }
+
+.aui-page-panel-nav {
+  background: #f4f5f7; }
+  .aui-page-panel-nav .aui-nav-heading {
+    color: #8993a4;
+    font-size: 12px; }
+  .aui-page-panel-nav .aui-nav a {
+    color: #42526e !important; }
+    .aui-page-panel-nav .aui-nav a:hover {
+      color: #0065ff !important;
+      background-color: rgba(9, 30, 66, 0.42); }
+    .aui-page-panel-nav .aui-nav a:active {
+      background-color: #DEEBFF !important; }
+
+.aui-page-panel-nav .aui-nav a:active, .aui-nav-selected {
+  background: #DEEBFF !important; }
+
+.aui-message-warning {
+  background-color: #ffab00 !important; }
+
+.aui-message {
+  border: none !important; }
+
+.aui-message.warning:before, .aui-message-warning:before {
+  background-color: #ffab00 !important; }
+
+.aui-lozenge.jira-issue-status-lozenge-blue-gray {
+  background-color: #172b4d;
+  border-color: #172b4d; }
+
+.aui-lozenge.jira-issue-status-lozenge-yellow {
+  background-color: #ffab00;
+  border-color: #ffab00; }
+
+.aui-lozenge.jira-issue-status-lozenge-green {
+  background-color: #36b37e;
+  border-color: #36b37e; }
+
+.aui-lozenge.jira-issue-status-lozenge-purple {
+  background-color: #6554c0;
+  border-color: #36b37e; }
+
+.aui-lozenge.jira-issue-status-lozenge-blue {
+  background-color: #0049b0;
+  border-color: #0049b0; }
+
+.ghx-column-headers h2 {
+  text-transform: uppercase; }
+
+.ghx-column-headers .ghx-qty {
+  float: right; }
+
+.ghx-column-headers > .ghx-column {
+  background: #F4F5F7;
+  padding: 10px;
+  border: none; }
+
+.ghx-swimlane .ghx-columns > .ghx-column {
+  background: #F4F5F7;
+  padding: 10px; }
+
+#ghx-pool.ghx-band-3 {
+  padding-top: 42px; }
+
+.ghx-issue {
+  margin-top: 0;
+  margin-bottom: 10px; }
