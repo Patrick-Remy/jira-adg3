@@ -1,0 +1,25 @@
+.versions-table {
+  .progressbar-container {
+    .progressbar__entry_to-do {
+      background: $blue;
+    }
+    .progressbar__entry_in-progress {
+      background: $yellow;
+    }
+    .progressbar__entry_complete {
+      background: $green;
+    }
+  }
+}
+
+.progress-statuses {
+  .progress-statuses__table__badge_to-do {
+    background: $blue;
+  }
+  .progress-statuses__table__badge_in-progress {
+    background: $yellow;
+  }
+  .progress-statuses__table__badge_complete {
+    background: $green;
+  }
+}
