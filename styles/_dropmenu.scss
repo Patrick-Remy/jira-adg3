@@ -10,8 +10,8 @@
     color: /*#B3D4FF*/ $dark-gray-2 !important;
   }
 
-  li:hover > a {
-      background: $light-gray !important;
+  li > a:hover {
+    background: $light-gray !important;
   }
 
   // Remove background change on hover
