@@ -7,9 +7,20 @@ a[role="button"], button {
 .aui-button {
   &.aui-button-primary {
     background: $blue;
-    
+
     &:hover, &:active, &:visited {
       background: $primary-blue;
     }
+  }
+}
+
+.version-filter-status-button {
+  color: $blue;
+
+  &.version-filter-status-pressed {
+    background: $blue;
+  }
+  &:hover, &:active, &:visited {
+    background: $primary-blue;
   }
 }
