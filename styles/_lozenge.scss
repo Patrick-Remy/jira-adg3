@@ -1,4 +1,8 @@
 .aui-lozenge {
+  &.aui-lozenge-subtle {
+    background-color: $white !important;
+  }
+  
   &.aui-lozenge-complete, &.jira-issue-status-lozenge-blue-gray {
     background-color: $dark-blue;
     border-color: $dark-blue;
@@ -9,18 +13,23 @@
     border-color: $blue;
   }
 
-  &.jira-issue-status-lozenge-yellow {
+  &.aui-lozenge-current, &.jira-issue-status-lozenge-yellow {
     background-color: $yellow;
     border-color: $yellow;
   }
 
-  &.jira-issue-status-lozenge-green {
+  &.aui-lozenge-success, &.jira-issue-status-lozenge-green {
     background-color: $green;
     border-color: $green;
   }
 
-  &.jira-issue-status-lozenge-purple {
+  &.aui-lozenge-moved &.jira-issue-status-lozenge-purple {
     background-color: $purple;
-    border-color: $green;
+    border-color: $purple;
+  }
+
+  &.aui-lozenge-error, &.jira-issue-status-lozenge-red {
+    background-color: $red;
+    border-color: $red;
   }
 }
