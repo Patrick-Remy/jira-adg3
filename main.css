@@ -206,3 +206,6 @@ a[role="button"].ghx-active, button.ghx-active {
 
 .progress-statuses .progress-statuses__table__badge_complete {
   background: #36b37e; }
+
+td.pb_barlefttd {
+  background-color: #172b4d; }
