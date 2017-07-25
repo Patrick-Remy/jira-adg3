@@ -1,10 +1,39 @@
 .aui-message {
   border: none !important;
 
-  &.aui-message-warning {
-    background-color: $yellow !important;
+  &:before {
+    background-color: $blue;
   }
-}
-.aui-message.warning:before, .aui-message-warning:before {
-  background-color: $yellow !important;
+
+  &.warning, &.aui-message-warning {
+    border-color: $yellow;
+
+    &:before {
+      background-color: $yellow;
+    }
+  }
+
+  &.error, &.aui-message-error {
+    border-color: $red;
+
+    &:before {
+      background-color: $red;
+    }
+  }
+
+  &.hint, &.aui-message-hint, &.info, &.aui-message-info {
+      border-color: $blue;
+
+      &:before {
+        background-color: $blue;
+      }
+  }
+
+  &.success, &.aui-message-success {
+    border-color: $green;
+
+    &:before {
+      background-color: $green;
+    }
+  }
 }

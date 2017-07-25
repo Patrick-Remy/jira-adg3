@@ -128,11 +128,24 @@ a[role="button"].ghx-active, button.ghx-active {
 
 .aui-message {
   border: none !important; }
-  .aui-message.aui-message-warning {
-    background-color: #ffab00 !important; }
-
-.aui-message.warning:before, .aui-message-warning:before {
-  background-color: #ffab00 !important; }
+  .aui-message:before {
+    background-color: #0049b0; }
+  .aui-message.warning, .aui-message.aui-message-warning {
+    border-color: #ffab00; }
+    .aui-message.warning:before, .aui-message.aui-message-warning:before {
+      background-color: #ffab00; }
+  .aui-message.error, .aui-message.aui-message-error {
+    border-color: #ff5630; }
+    .aui-message.error:before, .aui-message.aui-message-error:before {
+      background-color: #ff5630; }
+  .aui-message.hint, .aui-message.aui-message-hint, .aui-message.info, .aui-message.aui-message-info {
+    border-color: #0049b0; }
+    .aui-message.hint:before, .aui-message.aui-message-hint:before, .aui-message.info:before, .aui-message.aui-message-info:before {
+      background-color: #0049b0; }
+  .aui-message.success, .aui-message.aui-message-success {
+    border-color: #36b37e; }
+    .aui-message.success:before, .aui-message.aui-message-success:before {
+      background-color: #36b37e; }
 
 .aui-lozenge.aui-lozenge-complete, .aui-lozenge.jira-issue-status-lozenge-blue-gray {
   background-color: #172b4d;
